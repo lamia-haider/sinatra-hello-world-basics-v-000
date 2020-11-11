@@ -1,8 +1,8 @@
-class App < Sinatra::Base
-  class App
-    get '/' do
-      "Hello World"
-    end
-  end
+require_relative 'config/environment'
 
+
+class App < Sinatra::Base
+  get '/' do
+    "Hello World"
+  end
 end
